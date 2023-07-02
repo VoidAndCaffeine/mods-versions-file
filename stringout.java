@@ -10,10 +10,10 @@ public class stringout {
     private static String filename = "mods.versions";
 
     public static void stringOut() throws IOException{
-        sOut[0][0] = "test_mod_name"; 
-        sOut[0][1] = "1.0.0"; 
-        sOut[0][2] = "https://testmodurl.broken"; 
-        sOut[0][3] = "reserved for hash if i ever get that working"; 
+        sOut[0][0] = "Sodium"; 
+        sOut[0][1] = "sodium.jar";
+        sOut[0][2] = "1200410"; // mc1.20-0.4.10
+        sOut[0][3] = "https://cdn.modrinth.com/data/AANobbMI/versions/vgceLbdH/sodium-fabric-mc1.20-0.4.10%2Bbuild.27.jar"; 
 
         saveStringFile();
     }
