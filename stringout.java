@@ -23,7 +23,7 @@ public class stringout {
     public static void stringOut() throws IOException{
         sOut[0][0] = "1"; 
         sOut[0][1] = "mods.versions";
-        sOut[0][2] = "0121";
+        sOut[0][2] = "0131";
         sOut[0][3] = "https://raw.githubusercontent.com/VoidAndCaffeine/mods-versions-file/main/mods.versions"; 
 
         sOut[2][0] = "Entity Culling"; 
