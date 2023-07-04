@@ -26,6 +26,11 @@ public class stringout {
         sOut[0][2] = "1001";
         sOut[0][3] = "https://github.com/VoidAndCaffeine/mods-versions-file/raw/main/mods.versions"; 
 
+        sOut[1][0] = "Quilted Fabric api"; 
+        sOut[1][1] = "qfapi.jar";
+        sOut[1][2] = "1";
+        sOut[1][3] = "https://cdn.modrinth.com/data/qvIfYCYJ/versions/di82eiyL/qfapi-7.0.3_qsl-6.0.3_fapi-0.83.1_mc-1.20.1.jar"; 
+
         sOut[2][0] = "Entity Culling"; 
         sOut[2][1] = "entityCulling.jar";
         sOut[2][2] = "1";
