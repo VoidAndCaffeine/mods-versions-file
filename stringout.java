@@ -24,7 +24,7 @@ public class stringout {
         sOut[0][0] = "dummy file"; 
         sOut[0][1] = "mods.versions";
         sOut[0][2] = "1001";
-        sOut[0][3] = "https://raw.githubusercontent.com/VoidAndCaffeine/mods-versions-file/main/mods.versions"; 
+        sOut[0][3] = "https://github.com/VoidAndCaffeine/mods-versions-file/raw/main/mods.versions"; 
 
         sOut[2][0] = "Entity Culling"; 
         sOut[2][1] = "entityCulling.jar";
