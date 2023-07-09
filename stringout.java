@@ -17,13 +17,13 @@ import java.io.ObjectOutputStream;
  */
 
 public class stringout {
-    private static String[][] sOut = new String[27][4];
+    private static String[][] sOut = new String[28][4];
     private static String filename = "mods.versions";
 
     public static void stringOut() throws IOException{
         sOut[0][0] = "dummy file"; 
         sOut[0][1] = "mods.versions";
-        sOut[0][2] = "1001";
+        sOut[0][2] = "11001";
         sOut[0][3] = "https://github.com/VoidAndCaffeine/mods-versions-file/raw/main/mods.versions"; 
 
         sOut[1][0] = "Quilted Fabric api"; 
@@ -155,6 +155,11 @@ public class stringout {
         sOut[26][1] = "collective.jar";
         sOut[26][2] = "1";
         sOut[26][3] = "https://cdn.modrinth.com/data/e0M1UDsY/versions/EbteiHrL/collective-1.20.1-6.62.jar"; 
+ 
+        sOut[27][0] = "Iris"; 
+        sOut[27][1] = "irisMod.jar";
+        sOut[27][2] = "1";
+        sOut[27][3] = "https://cdn.modrinth.com/data/YL57xq9U/versions/URWeWMAt/iris-mc1.20-1.6.4.jar"; 
 
       saveStringFile();
     }
