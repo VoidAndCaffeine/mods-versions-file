@@ -23,7 +23,7 @@ public class stringout {
     public static void stringOut() throws IOException{
         sOut[0][0] = "dummy file"; 
         sOut[0][1] = "mods.versions";
-        sOut[0][2] = "11002";
+        sOut[0][2] = "11003";
         sOut[0][3] = "https://github.com/VoidAndCaffeine/mods-versions-file/raw/main/mods.versions"; 
 
         sOut[1][0] = "Quilted Fabric api"; 
@@ -164,7 +164,7 @@ public class stringout {
         sOut[1][0] = "No Chat Reports"; 
         sOut[1][1] = "noChatReports.jar";
         sOut[1][2] = "1";
-        sOut[1][3] = "https://cdn.modrinth.com/data/qQyHxfxd/versions/ksEG6N5E/NoChatReports-FORGE-1.20.1-v2.2.2.jar"; 
+        sOut[1][3] = "https://cdn.modrinth.com/data/qQyHxfxd/versions/HeZZR2kF/NoChatReports-FABRIC-1.20.1-v2.2.2.jar"; 
 
       saveStringFile();
     }
