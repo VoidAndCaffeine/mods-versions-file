@@ -23,7 +23,7 @@ public class stringout {
     public static void stringOut() throws IOException{
         sOut[0][0] = "dummy file"; 
         sOut[0][1] = "mods.versions";
-        sOut[0][2] = "11004";
+        sOut[0][2] = "11005";
         sOut[0][3] = "https://github.com/VoidAndCaffeine/mods-versions-file/raw/main/mods.versions"; 
 
         sOut[1][0] = "Quilted Fabric api"; 
