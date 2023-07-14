@@ -29,7 +29,7 @@ public class stringout {
         sOut[1][0] = "Quilted Fabric api"; 
         sOut[1][1] = "qfapi.jar";
         sOut[1][2] = "1";
-        sOut[1][3] = "https://cdn.modrinth.com/data/qvIfYCYJ/versions/di82eiyL/qfapi-7.0.3_qsl-6.0.3_fapi-0.83.1_mc-1.20.1.jar"; 
+        sOut[1][3] = "https://cdn.modrinth.com/data/qvIfYCYJ/versions/4JBkYQUF/qfapi-7.0.6_qsl-6.0.4_fapi-0.85.0_mc-1.20.1.jar"; 
 
         sOut[2][0] = "Entity Culling"; 
         sOut[2][1] = "entityCulling.jar";
@@ -174,7 +174,7 @@ public class stringout {
         sOut[30][0] = "Continuity"; 
         sOut[30][1] = "continuity.jar";
         sOut[30][2] = "1";
-        sOut[30][3] = "https://github.com/PepperCode1/Continuity/releases/download/v2.0.2%2B1.19/continuity-2.0.2+1.19.jar"; 
+        sOut[30][3] = "https://cdn.modrinth.com/data/1IjD5062/versions/ImUFj5Gl/continuity-3.0.0-beta.2%2B1.20.jar"; 
 
       saveStringFile();
     }
