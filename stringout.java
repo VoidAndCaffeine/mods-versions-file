@@ -17,13 +17,13 @@ import java.io.ObjectOutputStream;
  */
 
 public class stringout {
-    private static String[][] sOut = new String[29][4];
+    private static String[][] sOut = new String[31][4];
     private static String filename = "mods.versions";
 
     public static void stringOut() throws IOException{
         sOut[0][0] = "dummy file"; 
         sOut[0][1] = "mods.versions";
-        sOut[0][2] = "11003";
+        sOut[0][2] = "11004";
         sOut[0][3] = "https://github.com/VoidAndCaffeine/mods-versions-file/raw/main/mods.versions"; 
 
         sOut[1][0] = "Quilted Fabric api"; 
@@ -161,10 +161,20 @@ public class stringout {
         sOut[27][2] = "1";
         sOut[27][3] = "https://cdn.modrinth.com/data/YL57xq9U/versions/URWeWMAt/iris-mc1.20-1.6.4.jar"; 
  
-        sOut[1][0] = "No Chat Reports"; 
-        sOut[1][1] = "noChatReports.jar";
-        sOut[1][2] = "1";
-        sOut[1][3] = "https://cdn.modrinth.com/data/qQyHxfxd/versions/HeZZR2kF/NoChatReports-FABRIC-1.20.1-v2.2.2.jar"; 
+        sOut[28][0] = "No Chat Reports"; 
+        sOut[28][1] = "noChatReports.jar";
+        sOut[28][2] = "1";
+        sOut[28][3] = "https://cdn.modrinth.com/data/qQyHxfxd/versions/HeZZR2kF/NoChatReports-FABRIC-1.20.1-v2.2.2.jar"; 
+
+        sOut[29][0] = "Indium Mod"; 
+        sOut[29][1] = "indium.jar";
+        sOut[29][2] = "1";
+        sOut[29][3] = "https://github.com/comp500/Indium/releases/download/1.0.21%2Bmc1.20.1/indium-1.0.21+mc1.20.1.jar"; 
+        
+        sOut[30][0] = "Continuity"; 
+        sOut[30][1] = "continuity.jar";
+        sOut[30][2] = "1";
+        sOut[30][3] = "https://github.com/PepperCode1/Continuity/releases/download/v2.0.2%2B1.19/continuity-2.0.2+1.19.jar"; 
 
       saveStringFile();
     }
